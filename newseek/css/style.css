@@ -2552,6 +2552,16 @@ label {
     }
 }
 
+@media only screen and (max-width: 767px) {
+	.container {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.portfolio-container .portfolio-item {
+		padding: 0 !important;
+	}
+}
+
 @media only screen and (max-width: 768px) {
     .menu-open,
     .menu-close {
