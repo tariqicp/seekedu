@@ -1,3 +1,16 @@
 @media all and (max-width: 768px) {
     
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+        
+.background-area.large {
+    
+    /* background-color: #333; */
+    background: url(../images/bg/dwayne.JPG);
+    height: 800px;
+    }
 }
