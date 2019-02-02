@@ -148,10 +148,10 @@
         <section class="contact-area">
             <div class="container">
                 <div class="contact_content col-md-8 col-md-offset-2">
-                    <form id="contactForm" data-toggle="validator" class="contact-form shake">
+                    <form id="contactForm" method="POST" data-toggle="validator" class="contact-form shake">
                             <div class="col-md-6">
                                 <div class="group">
-                                    <input id="name" type="text" class="inputMaterial" name="Name" autocomplete="off" required data-error="Please enter your name">
+                                    <input id="name" type="text" class="inputMaterial" name="name" autocomplete="off" required data-error="Please enter your name">
                                     <div class="help-block with-errors"></div>
                                     <span class="highlight"></span>
                                     <span class="bar"></span>
@@ -169,7 +169,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="group">
-                                    <textarea id="message" class="inputMaterial textarea" rows="10" name="Message" required data-error="Please enter your message subject"></textarea>
+                                    <textarea id="message" class="inputMaterial textarea" rows="10" name="message" required data-error="Please enter your message subject"></textarea>
                                     <div class="help-block with-errors"></div>
                                     <span class="highlight"></span>
                                     <span class="bar"></span>
@@ -180,6 +180,7 @@
                             <div id="msgSubmit" class="h3 text-center hidden"></div>
                             <div class="clearfix"></div>
                         </form>
+                        <div id="form-submit-message"></div>
                 </div>
             </div>
         </section>
@@ -299,6 +300,41 @@
     <script src="js/contact-form-script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmsb2nGLuIl04bt7CWJozRMhThvGa3y1w"></script>
     <script src="js/custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    $(function () {
+      $('#contactForm').on('submit',function (e) {
+        // prevent the page from refreshing on submit
+        e.preventDefault();
+
+        // serialize form data to send to 'send' API
+        var formData = $('#contactForm').serialize();
+        console.log("formData submitted: ", formData);
+
+        // send serialized form data to 'send' API endpoint
+        $.ajax({
+          type: 'POST',
+          url: 'https://shielded-beach-77929.herokuapp.com/api/send',
+          data: formData,
+          // NOTE: this uses an 'error-msg' class which can be added as a custom class for displaying error text in a unique format (ex - red & bold)
+          success: function (response) {
+            // ToDo: display success message to the user, for example:           
+            $('#form-submit-message').text("Thank you for your message!").removeClass('error-msg');
+            console.log("response", response);
+          },
+          error: function (err) {
+            // ToDo: display error message to the user, for example:
+            $('#form-submit-message').text("There was a problem sending your message.  Please try again.  Thank you.").addClass('error-msg');
+            console.log("err", err);
+          }
+        });
+      });
+    });
+    
+  //]]>
+</script>
+
 </body>
 
 </html>
