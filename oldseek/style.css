@@ -173,7 +173,7 @@ input:focus {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #CC446C;
+    background-color: #e6a86a;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -221,7 +221,7 @@ input:focus {
     display: inline-block;
     font-size: 40px;
     line-height: 1em;
-    color: #CC446C;
+    color: #e6a86a;
     width: 50px;
     height: 40px;
 }
@@ -231,9 +231,9 @@ input:focus {
     right: 100%;
     top: 18px;
     content: "";
-    background: #CC446C padding-box content-box;
+    background: #e6a86a padding-box content-box;
     padding: 2px 0 2px 7px;
-    border-top: 1px solid #CC446C;
+    border-top: 1px solid #e6a86a;
     width: 115px;
     height: 6px;
 }
@@ -243,9 +243,9 @@ input:focus {
     left: 100%;
     top: 18px;
     content: "";
-    background: #CC446C padding-box content-box;
+    background: #e6a86a padding-box content-box;
     padding: 2px 7px 2px 0;
-    border-top: 1px solid #CC446C;
+    border-top: 1px solid #e6a86a;
     width: 115px;
     height: 6px;
 }
@@ -278,7 +278,7 @@ input:focus {
     color: #fff;
     border-radius: 30px;
     text-transform: capitalize;
-    background-color: #CC446C;
+    background-color: #e6a86a;
     font-weight: 600;
     text-align: center;
     line-height: 50px;
@@ -377,7 +377,7 @@ input:focus {
     border-radius: 5px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    background-color: #CC446C;
+    background-color: #e6a86a;
     transition: 0.5s;
 }
 
@@ -440,7 +440,7 @@ input:focus {
 }
 
 ul.breadcrumb li a {
-    color: #CC446C;
+    color: #e6a86a;
     font-size: 14px;
 }
 
@@ -532,7 +532,7 @@ nav {
 }
 
 .main-menu ul li a:hover {
-    color: #CC446C !important;
+    color: #e6a86a !important;
 }
 
 .main-menu ul li.active>a,
@@ -540,7 +540,7 @@ nav {
 .main-menu ul li.active>a:hover {
     background-color: transparent !important;
     position: relative;
-    color: #CC446C !important;
+    color: #e6a86a !important;
 }
 
 .main-menu ul li.active a:before {
@@ -565,7 +565,7 @@ nav {
 .dropdown ul {
     top: 130%;
     background-color: #3A3D44 !important;
-    border-bottom: 5px solid #CC446C !important;
+    border-bottom: 5px solid #e6a86a !important;
 }
 
 .dropdown ul li {
@@ -591,7 +591,7 @@ nav {
 
 .dropdown ul li.active a,
 .navbar-nav .open .dropdown-menu li a:hover {
-    background-color: #CC446C !important;
+    background-color: #e6a86a !important;
     color: #fff !important;
 }
 
@@ -708,7 +708,7 @@ nav {
 }
 
 .single-banner-txt h1 span {
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .single-banner-txt p {
@@ -767,7 +767,7 @@ nav {
     z-index: 2;
     font-size: 20px;
     border-radius: 50%;
-    border: 2px solid #CC446C;
+    border: 2px solid #e6a86a;
     color: #fff;
 }
 
@@ -830,7 +830,7 @@ nav {
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: cover !important;
-    border: 2px solid #CC446C;
+    border: 2px solid #e6a86a;
 }
 
 
@@ -916,7 +916,7 @@ nav {
 .about-achievement i.fa {
     font-size: 26px;
     margin-right: 10px;
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .about-achievement h4 {
@@ -950,7 +950,7 @@ nav {
 .service-icon::before {
     position: absolute;
     left: 60px;
-    border: 1px solid #CC446C;
+    border: 1px solid #e6a86a;
     width: 20%;
     content: "";
     top: 50%;
@@ -959,7 +959,7 @@ nav {
 .service-icon::after {
     position: absolute;
     right: 60px;
-    border: 1px solid #CC446C;
+    border: 1px solid #e6a86a;
     width: 20%;
     content: "";
     top: 50%;
@@ -967,13 +967,13 @@ nav {
 
 .service-content i.fa {
     font-size: 30px;
-    color: #CC446C;
+    color: #e6a86a;
     width: 60px;
     height: 60px;
     line-height: 60px;
     border-radius: 50%;
     position: relative;
-    border: 1px solid #CC446C;
+    border: 1px solid #e6a86a;
 }
 
 
@@ -1033,7 +1033,7 @@ nav {
     width: 0px;
     height: 100%;
     z-index: 1;
-    background-color: #CC446C !important;
+    background-color: #e6a86a !important;
     border-radius: 5px;
 }
 
@@ -1091,7 +1091,7 @@ nav {
     font-weight: 600;
     display: block;
     float: inherit;
-    color: #CC446C;
+    color: #e6a86a;
     text-align: left;
 }
 
@@ -1165,7 +1165,7 @@ nav {
     border-radius: 50%;
     height: 90px;
     width: 90px;
-    background-color: #CC446C;
+    background-color: #e6a86a;
     position: relative;
 }
 
@@ -1210,7 +1210,7 @@ nav {
 .hvr-ripple-out:before {
     content: '';
     position: absolute;
-    border: #CC446C solid 6px;
+    border: #e6a86a solid 6px;
     border-radius: 50%;
     top: 0;
     right: 0;
@@ -1237,7 +1237,7 @@ nav {
 }
 
 .gallery-active {
-    background-color: #CC446C !important;
+    background-color: #e6a86a !important;
 }
 
 .iso-nav {
@@ -1318,7 +1318,7 @@ nav {
 
 .gallery-lightbox a i.fa {
     bottom: 20px;
-    color: #CC446C;
+    color: #e6a86a;
     cursor: pointer;
     font-size: 22px;
     position: absolute;
@@ -1390,14 +1390,14 @@ nav {
     width: 40px;
     border-radius: 50%;
     font-size: 16px;
-    background-color: #CC446C;
+    background-color: #e6a86a;
     color: #fff;
     transition: 0.5s;
 }
 
 .single-team-txt ul li i:hover {
     background-color: #fff;
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .single-volunteers h3 {
@@ -1420,7 +1420,7 @@ nav {
 
 .volunteers-info h4 {
     font-size: 30px;
-    color: #CC446C;
+    color:#e6a86a;
     margin-bottom: 10px;
 }
 
@@ -1439,7 +1439,7 @@ nav {
 
 .vol-in {
     display: flex;
-    border: 2px solid #CC446C;
+    border: 2px solid #e6a86a;
     margin-top: 10px;
     float: left;
     width: 100%;
@@ -1449,7 +1449,7 @@ nav {
     position: relative;
     padding: 20px 0 20px 40px;
     width: 50%;
-    border-right: 2px solid #CC446C;
+    border-right: 2px solid #e6a86a;
 }
 
 .volunteers-ins:last-child {
@@ -1460,7 +1460,7 @@ nav {
     position: absolute;
     left: 4%;
     font-size: 18px;
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .volunteers-ins h4 {
@@ -1528,7 +1528,7 @@ textarea.form-control {
 }
 
 .events-post-meta li {
-    color: #CC446C;
+    color: #e6a86a;
     display: inline-block;
     font-size: 13px;
     line-height: 20px;
@@ -1545,7 +1545,7 @@ textarea.form-control {
 }
 
 .events-content h2 {
-    color: #CC446C;
+    color: #e6a86a;
     font-size: 24px;
     margin: 0 0 16px;
     text-transform: capitalize;
@@ -1557,7 +1557,7 @@ textarea.form-control {
 }
 
 .events-post-date-info {
-    background-color: #CC446C;
+    background-color: #e6a86a;
     color: #fff;
     font-weight: 600;
     padding: 5px 10px;
@@ -1584,7 +1584,7 @@ textarea.form-control {
 .events-slider h2 {
     font-size: 26px;
     margin: 30px 0 20px;
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .events-author {
@@ -1595,7 +1595,7 @@ textarea.form-control {
 
 .events-author a h4 {
     font-size: 20px;
-    color: #CC446C;
+    color: #e6a86a;
     margin-bottom: 5px;
 }
 
@@ -1617,7 +1617,7 @@ textarea.form-control {
     line-height: 30px;
     text-align: center;
     color: #fff;
-    background-color: #CC446C;
+    background-color: #e6a86a;
     margin-top: 10px;
     border-radius: 50%;
 }
@@ -1632,7 +1632,7 @@ textarea.form-control {
 }
 
 .upcoming-events .owl-nav button {
-    color: #CC446C !important;
+    color: #e6a86a !important;
     text-align: center;
     margin-right: 15px;
     font-size: 36px !important;
@@ -1755,7 +1755,7 @@ textarea.form-control {
 }
 
 .client-info img {
-    border: 3px solid #CC446C;
+    border: 3px solid #e6a86a;
     border-radius: 50%;
     position: relative;
     z-index: 9;
@@ -1766,7 +1766,7 @@ textarea.form-control {
     top: 50%;
     left: 45%;
     width: 54%;
-    background-color: #CC446C;
+    background-color: #e6a86a;
     border-radius: 10px;
     padding: 10px 10px 10px 45px;
     transform: translate(-50%, -50%);
@@ -1802,7 +1802,7 @@ textarea.form-control {
 }
 
 .client-wraper .owl-dot {
-    background-color: #CC446C !important;
+    background-color: #e6a86a !important;
     border-radius: 50%;
     display: inline-block;
     height: 15px;
@@ -1812,7 +1812,7 @@ textarea.form-control {
 
 .client-wraper .owl-dot.active {
     background-color: #fff !important;
-    border: 4px solid #CC446C;
+    border: 4px solid #e6a86a;
 }
 
 
@@ -1844,7 +1844,7 @@ textarea.form-control {
 .single-progress-dec i.fa {
     font-size: 36px;
     display: block;
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .single-progress-dec>span {
@@ -2005,7 +2005,7 @@ textarea.form-control {
     transform: translateY(-50%);
     width: 40px;
     transition: all 0.5s ease 0s;
-    background-color: #CC446C !important;
+    background-color: #e6a86a !important;
     color: #fff !important;
     border-radius: 5px;
 }
@@ -2040,7 +2040,7 @@ textarea.form-control {
 }
 
 blockquote {
-    border-left: 5px solid #CC446C;
+    border-left: 5px solid #e6a86a;
 }
 
 blockquote p {
@@ -2055,7 +2055,7 @@ blockquote p {
 }
 
 .blog-get-info i.fa {
-    color: #CC446C;
+    color: #e6a86a;
     font-size: 16px;
     margin-right: 5px;
 }
@@ -2078,8 +2078,8 @@ blockquote p {
 }
 
 .blog-comment-wraper h3 {
-    border-bottom: 1px solid #CC446C;
-    color: #CC446C;
+    border-bottom: 1px solid #e6a86a;
+    color: #e6a86a;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 40px;
@@ -2102,7 +2102,7 @@ blockquote p {
 }
 
 .reply-commnet-content .comment-author h4 {
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .comment-content {
@@ -2117,14 +2117,14 @@ blockquote p {
 }
 
 .comment-content a {
-    color: #CC446C;
+    color: #e6a86a;
     float: right;
     font-weight: 700;
 }
 
 .comment-content a i.fa {
     margin-left: 5px;
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .reply-commnet-content {
@@ -2226,7 +2226,7 @@ h3.comment-heading {
 
 .page-count a:hover,
 .page-count a.active {
-    background-color: #CC446C;
+    background-color: #e6a86a;
     color: #fff;
 }
 
@@ -2237,7 +2237,7 @@ h3.comment-heading {
 /***** sidebar *****/
 
 .widget-search {
-    background-color: #CC446C;
+    background-color: #e6a86a;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 2px rgba(0, 0, 0, 0.1) inset;
     margin-bottom: 30px;
     padding: 25px;
@@ -2261,7 +2261,7 @@ h3.comment-heading {
 .widget-search .sub_search {
     background-color: transparent;
     border: 0 none;
-    color: #CC446C;
+    color: #e6a86a;
     font-size: 20px;
     position: absolute;
     right: 3%;
@@ -2281,7 +2281,7 @@ h3.comment-heading {
 
 .widget-title h2 {
     text-align: center;
-    background-color: #CC446C;
+    background-color: #e6a86a;
     padding: 8px 0;
     overflow: hidden;
     font-size: 22px;
@@ -2307,7 +2307,7 @@ h3.comment-heading {
 }
 
 .sidebar-widget ul li a:hover {
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .sidebar-widget ul li a:active,
@@ -2343,7 +2343,7 @@ h3.comment-heading {
 }
 
 .post-info h3 {
-    color: #CC446C;
+    color: #e6a86a;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -2433,7 +2433,7 @@ h3.comment-heading {
 
 .contact-info i {
     font-size: 50px;
-    color: #CC446C;
+    color: #e6a86a;
     min-width: 50px;
 }
 
@@ -2492,7 +2492,7 @@ p.error {
     left: 0;
     width: 20%;
     content: "";
-    border: 1px solid #CC446C;
+    border: 1px solid #e6a86a;
 }
 
 .footer-widgets ul {
@@ -2512,7 +2512,7 @@ p.error {
     left: 0;
     content: "\f101";
     font-family: fontawesome;
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .address-info li {
@@ -2529,7 +2529,7 @@ p.error {
 
 .footer-widgets ul li i.fa {
     margin-right: 10px;
-    color: #CC446C;
+    color: #e6a86a;
     font-size: 18px;
 }
 
@@ -2539,7 +2539,7 @@ p.error {
 }
 
 .footer-widgets ul li a:hover {
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .subscribe-box {
@@ -2578,14 +2578,14 @@ p.error {
 }
 
 .footer-social-link a i.fa {
-    background-color: #CC446C;
+    background-color: #e6a86a;
     color: #fff;
     height: 30px;
     line-height: 30px;
     text-align: center;
     transition: all 0.5s ease 0s;
     width: 30px;
-    border: 1px solid #CC446C;
+    border: 1px solid #e6a86a;
     margin-right: 2px;
     border-radius: 2px;
 }
@@ -2627,7 +2627,7 @@ ul.list li a img {
 
 .copy-right p span,
 .copy-right p a {
-    color: #CC446C;
+    color: #e6a86a;
     font-weight: 900;
 }
 
@@ -2650,7 +2650,7 @@ ul.list li a img {
     text-transform: uppercase;
     position: relative;
     font-weight: 600;
-    background-color: #CC446C;
+    background-color: #e6a86a;
     color: #fff;
 }
 
@@ -2665,9 +2665,9 @@ ul.list li a img {
     border-bottom: 24px solid transparent !important;
     z-index: 2;
     height: 100%;
-    color: #CC446C;
+    color: #e6a86a;
 }
 
 .widget-newsletter p a {
-    color: #CC446C;
+    color: #e6a86a;
 }
