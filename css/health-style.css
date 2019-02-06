@@ -816,7 +816,7 @@ section {
 #tarikzhero .item .welcome-text {
     left: 50%;
     position: absolute;
-    top: 50%;
+    top: 25%;
     transform: translate(-50%, -50%);
     width: 700px;
 }
@@ -830,7 +830,7 @@ section {
 }
 
 .slide.one {
-    background: url(../images/bg/community.jpg) 48% 48%;
+    background: url(../images/bg/health.PNG) 48% 48%;
     background-size: cover;
 }
 
