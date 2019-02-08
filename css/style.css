@@ -2632,6 +2632,7 @@ label {
         padding: 140px;
         text-align: center;
         width: 100%;
+        margin-top:175px;
     }
     .about-content {
         margin-top: 100px;
@@ -2733,6 +2734,7 @@ label {
     .menu-open,
     .menu-close {
         right: 30px;
+        background-color: #CC446C;
     }
     .portfolio-container .portfolio-item {
         /*padding: 0 15px*/
